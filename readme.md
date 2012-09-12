@@ -106,7 +106,7 @@ https://github.com/ace-subido/Mango/issues is the perfect place for that
 
 ##Acknowledgements##
 
-Thanks to mongorepository.codeplex.com, reading that taught me about using the C# driver. Thanks to 10gen for making MongoDB such a great piece of software!
+Thanks to mongorepository.codeplex.com, it was a huge influence in the code-base. Thanks to 10gen for making MongoDB such a great piece of software!
 
 ##Author##
 
