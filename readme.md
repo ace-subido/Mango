@@ -28,9 +28,9 @@ Suppose we want to access a collection of documents for a "User" class. First we
        <add name="MangoDBTest" connectionString="mongodb://localhost/MangoTest" />
     </connectionStrings>
 
-The connection string name does not matter, Mango will get the first connection string it sees. 
+*The connection string name does not matter, Mango will get the first connection string it sees. *
 
-First we wrap a "User" POCO with the **MangoModel** class:
+We then take a "Person" POCO and wrap it with **MangoModel**:
 
     public class Person : MangoModel
     {
@@ -39,11 +39,11 @@ First we wrap a "User" POCO with the **MangoModel** class:
         public DateTime DateCreated { get; set; }
     }
 
-*Where's the Id?*
+*What does this do?*
 
-The MangoModel class already supplies the Id attribute with a BsonId type.
+The MangoModel class supplies our POCO with the Id attribute (BsonId type). It basically makes our Person object mongo ready :)
 
-Now we have modelled our document, let's create our Repository class that serves as our medium for the collection called "UserCollection" in our MongoDB instance:
+Now we have modelled our document, let's create our Repository class that serves as our medium for the mongodb collection. We have our collection called "UserCollection" in our MongoDB instance:
 
     public class PersonRepository : MangoRepository<Person>
     {
@@ -60,7 +60,7 @@ Now that's settled. We can now start playing with the collection in our Mongo da
     PersonRepository repository = new PersonRepository();            
     Console.ReadKey();
 
-    //create document template
+    //create person objct
     Person template = new Person();
 
     template.Email = "person@gmail.com";
