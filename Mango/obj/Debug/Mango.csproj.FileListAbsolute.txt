@@ -1,0 +1,11 @@
+C:\Projects\Mango\Mango\bin\Debug\Mango.dll
+C:\Projects\Mango\Mango\bin\Debug\Mango.pdb
+C:\Projects\Mango\Mango\bin\Debug\MongoDB.Bson.dll
+C:\Projects\Mango\Mango\bin\Debug\MongoDB.Driver.dll
+C:\Projects\Mango\Mango\bin\Debug\MongoDB.Bson.pdb
+C:\Projects\Mango\Mango\bin\Debug\MongoDB.Bson.xml
+C:\Projects\Mango\Mango\bin\Debug\MongoDB.Driver.pdb
+C:\Projects\Mango\Mango\bin\Debug\MongoDB.Driver.xml
+C:\Projects\Mango\Mango\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Mango\Mango\obj\Debug\Mango.dll
+C:\Projects\Mango\Mango\obj\Debug\Mango.pdb

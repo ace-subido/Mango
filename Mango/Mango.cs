@@ -29,8 +29,7 @@
     {
         private MongoCollection<T> collection;
 
-        public MangoRepository()           
-        { }
+        public MangoRepository() { }
 
         public MangoRepository(string collectionName)
         {
@@ -39,10 +38,7 @@
 
         public MongoCollection<T> Collection
         {
-            get
-            {
-                return this.collection;
-            }
+            get { return this.collection; }
         }
 
         public T GetById(string id)
@@ -80,16 +76,13 @@
         public T Update(T entity)
         {
             this.collection.Save<T>(entity);
-
             return entity;
         }
 
         public IEnumerable<T> Update(IEnumerable<T> entities)
         {
             foreach (T entity in entities)
-            {
-                this.collection.Save<T>(entity);
-            }
+                this.collection.Save<T>(entity);          
 
             return entities;
         }
@@ -106,10 +99,8 @@
 
         public void Delete(Expression<Func<T, bool>> criteria)
         {
-            foreach (T entity in this.collection.AsQueryable<T>().Where(criteria))
-            {
-                this.Delete(entity.Id.ToString());
-            }
+            foreach (T entity in this.collection.AsQueryable<T>().Where(criteria))          
+                this.Delete(entity.Id.ToString());            
         }
 
         public void DeleteAll()
@@ -142,6 +133,7 @@
 
                 return server.GetDatabase(url.DatabaseName);
             }
+
             throw new InvalidOperationException("Need a connection string in your app/web.config file");
         }
 
@@ -151,6 +143,4 @@
             return GetDatabase().GetCollection<T>(collectionName);
         }
     }
-
-
 }

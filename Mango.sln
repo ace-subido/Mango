@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango", "Mango\Mango.csproj", "{A78D3134-2123-471D-AA37-6EA10350BABB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango.Demo", "Mango.Tests\Mango.Demo.csproj", "{82267547-560F-4CEE-A52E-8B9A97C81A94}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,16 +23,6 @@ Global
 		{A78D3134-2123-471D-AA37-6EA10350BABB}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{A78D3134-2123-471D-AA37-6EA10350BABB}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{A78D3134-2123-471D-AA37-6EA10350BABB}.Release|x86.ActiveCfg = Release|Any CPU
-		{82267547-560F-4CEE-A52E-8B9A97C81A94}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{82267547-560F-4CEE-A52E-8B9A97C81A94}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{82267547-560F-4CEE-A52E-8B9A97C81A94}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{82267547-560F-4CEE-A52E-8B9A97C81A94}.Debug|x86.ActiveCfg = Debug|x86
-		{82267547-560F-4CEE-A52E-8B9A97C81A94}.Debug|x86.Build.0 = Debug|x86
-		{82267547-560F-4CEE-A52E-8B9A97C81A94}.Release|Any CPU.ActiveCfg = Release|x86
-		{82267547-560F-4CEE-A52E-8B9A97C81A94}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{82267547-560F-4CEE-A52E-8B9A97C81A94}.Release|Mixed Platforms.Build.0 = Release|x86
-		{82267547-560F-4CEE-A52E-8B9A97C81A94}.Release|x86.ActiveCfg = Release|x86
-		{82267547-560F-4CEE-A52E-8B9A97C81A94}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
