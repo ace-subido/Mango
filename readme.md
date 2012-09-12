@@ -10,7 +10,7 @@ Design
 I designed Mango with 3 purposes in mind:
 
 1. **Out-of-the-box dead-easy to use.** - I thought of the developers in hackathons and the amount of time they shouldn't waste in making a data access tool. Drop in the code, edit it, cut it, paste it, it's easy to use and understand.
-2. **As a .NET primer on NoSQL technologies.** - I thought of the .NET developers that wanted to start learning MongoDB.
+2. **As a .NET primer on NoSQL technologies.** - I thought of the .NET developers that want to start learning MongoDB.
 3. **Easily editable and flexible.** - I intended this as a base template for things created with craziness in your data access layer.
 
 How to use
@@ -28,7 +28,7 @@ Suppose we want to access a collection of documents for a "User" class. First we
        <add name="MangoDBTest" connectionString="mongodb://localhost/MangoTest" />
     </connectionStrings>
 
-*The connection string name does not matter, Mango will get the first connection string it sees. *
+(The connection string name does not matter, Mango will get the first connection string it sees.)
 
 We then take a "Person" POCO and wrap it with **MangoModel**:
 
