@@ -1,4 +1,4 @@
-Mango: a simple MongoDB data-access tool for C# .NET.
+Mango: a simple MongoDB data-access tool written in C#
 ======
 
 Mango is the result of trying to learn new things with MongoDB; it's some of the sweet things I learned, simplified it and packed it up tightly. 
