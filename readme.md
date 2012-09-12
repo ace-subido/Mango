@@ -43,7 +43,7 @@ We then take a "Person" POCO and wrap it with **MangoModel**:
 
 The MangoModel class supplies our POCO with the Id attribute (BsonId type). It basically makes our Person object mongo ready :)
 
-Now we have modelled our document, let's create our Repository class that serves as our medium for the mongodb collection. We have our collection called "UserCollection" in our MongoDB instance:
+Now that we've modelled our document, let's create our Repository class that serves as our medium for the mongodb collection. We have our collection called "UserCollection" in our MongoDB instance:
 
     public class PersonRepository : MangoRepository<Person>
     {
@@ -52,7 +52,7 @@ Now we have modelled our document, let's create our Repository class that serves
         { }
     }    
 
-Now that's settled. We can now start playing with the collection in our Mongo database :) You can also try and implement your own methods in your Repository class. It's that easy!
+Everything is settled, we can now start playing with the collection in our Mongo database :) You can also implement your own methods in this Repository class. It's that easy! If you want to add some more stuff in the MangoRepository class, just go ahead and tweak it to your preference.
 
 **Inserts**
 
