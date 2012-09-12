@@ -100,6 +100,9 @@ Feed the **Add** method a List of the models. Make sure SafeMode is set to true 
 
 **Exists** method on the Repository class takes in a LAMBDA expression and brings back a boolean result.
 
+##Nuget##
+    PM > Install-Package Mango
+
 ##Got a bug to report or other random contributions?##
 
 https://github.com/ace-subido/Mango/issues is the perfect place for that
