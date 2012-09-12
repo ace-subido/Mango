@@ -103,9 +103,9 @@ Feed the **Add** method a List of the models. Make sure SafeMode is set to true 
 ##Nuget##
     PM > Install-Package Mango
 
-##Got a bug to report or other random contributions?##
+##Got a bug to report? Want to suggest something?##
 
-https://github.com/ace-subido/Mango/issues is the perfect place for that
+https://github.com/ace-subido/Mango/issues is the perfect place for that. Drop me a message at devstuff@acesubido.com
 
 ##Acknowledgements##
 
