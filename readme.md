@@ -1,7 +1,7 @@
 Mango: a simple MongoDB data-access tool for C# .NET.
 ======
 
-Mango is the result of me trying to learn new things with MongoDB; it's some of the sweet things I learned, simplified it and packed it up tightly. 
+Mango is the result of trying to learn new things with MongoDB; it's some of the sweet things I learned, simplified it and packed it up tightly. 
 
 It's a single-file wrapper for the MongoDB C# driver.  It's less than 200 lines of code. Yes, it's dead simple (I actually think this readme is longer than the code). Does the world actually need another wrapper for the official 10gen mongoDB C# driver? I don't really think about that stuff :) I just want to share this with fellow developers and hopefully help someone out in the process.
 
