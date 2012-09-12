@@ -100,22 +100,18 @@ Feed the **Add** method a List of the models. Make sure SafeMode is set to true 
 
 **Exists** method on the Repository class takes in a LAMBDA expression and brings back a boolean result.
 
--------------------------
 ##Got a bug to report or other random contributions?##
 
 https://github.com/ace-subido/Mango/issues is the perfect place for that
 
---------------------------
 ##Acknowledgements##
 
 Thanks to mongorepository.codeplex.com, reading that taught me about using the C# driver. Thanks to 10gen for making MongoDB such a great piece of software!
 
---------------------------
 ##Author##
 
 My name is Ace Subido, I'm a software developer from the Philippines.
 
--------------------------
 ##License##
 
 It's in the repo.
