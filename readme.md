@@ -85,6 +85,7 @@ Everything is settled, we can now start playing with the collection in our Mongo
 **Deletes**
 
     Person templateForDelete = templateForUpdate;
+    repository.Delete(templateForDelete);
 
 Other out-of-the-box methods
 --------
