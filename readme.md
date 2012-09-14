@@ -22,7 +22,7 @@ How to use
 
 Sample Code
 --------
-Suppose we want to access a collection of documents for a "User" class. First we place our connection string in our web.config. 
+Suppose we want to access a collection of documents for a "Person" class. First we place our connection string in our web.config. 
 
     <connectionStrings>
        <add name="MangoDBTest" connectionString="mongodb://localhost/MangoTest" />
