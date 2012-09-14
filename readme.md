@@ -28,7 +28,7 @@ Suppose we want to access a collection of documents for a "Person" class. First 
        <add name="MangoDBTest" connectionString="mongodb://localhost/MangoTest" />
     </connectionStrings>
 
-(The connection string name does not matter, Mango will get the first connection string it sees.)
+(The connection string name does not matter, Mango will get the first connection string it sees. Another note is, if the "MangoTest" database doesn't exist, the driver will create it for you.)
 
 We then take a "Person" POCO and wrap it with **MangoModel**:
 
@@ -53,6 +53,8 @@ Now that we've modelled our document, let's create our Repository class that ser
     }    
 
 Everything is settled, we can now start playing with the collection in our Mongo database :) You can also implement your own methods in this Repository class. It's that easy! If you want to add some more stuff in the MangoRepository class, just go ahead and tweak it to your preference.
+
+(One more note: if the "UserCollection" doesn't exist yet, the driver will create that collection for you.)
 
 **Inserts**
 
